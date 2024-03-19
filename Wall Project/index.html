@@ -8,7 +8,19 @@
     <title>Wall Drawing</title>
   </head>
   <body>
-    <div id="app"></div>
+    <canvas id="canvas2d"></canvas>
+    <canvas id="canvas3d"></canvas>
+    <div id="tools">
+      <img id="pencil_icon" src="/public/pencil.png" alt="pencil" />
+      <div id="toggle_3d">
+        <label>
+          3D
+          <!-- <input type="checkbox" /> -->
+          <button id="toggleViewButton">Toggle View</button>
+        </label>
+      </div>
+    </div>
+
     <script type="module" src="/script.js"></script>
   </body>
 </html>
