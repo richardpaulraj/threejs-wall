@@ -84,7 +84,7 @@ function draw3DScene() {
   renderer.setClearColor('#fff')
 
   const geometry = new THREE.BoxGeometry()
-  const material = new THREE.MeshBasicMaterial({ color: 'red' })
+  const material = new THREE.MeshBasicMaterial({ color: 'green' })
   const cube = new THREE.Mesh(geometry, material)
   scene.add(cube)
 
